@@ -1,9 +1,9 @@
-# Buritto Bowl
+<!--title:Buritto Bowl-->
 
-## Ingredients
+### Ingredients
 
-- [] Rice
-- [] Can of Beans
--
+- Rice
+- Can of Beans
 
-## Steps
+### Steps
+
