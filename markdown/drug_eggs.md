@@ -4,7 +4,10 @@ An addictive dish consiting of 6 eggs (3 servings) marinated in a sweet and spic
 
 ### Ingredients
 - 6 Large Eggs
-- 3 cucumbers (one per serving)
+- 3 small cucumbers (one per serving)
+
+For the marinade:
+
 - 3/4 cup soy sauce
 - 1/2 cup water
 - 1/4 granulated sugar
@@ -17,15 +20,15 @@ An addictive dish consiting of 6 eggs (3 servings) marinated in a sweet and spic
 ### Steps
 
 #### Step 1: Soft Boil
-First you need to soft boil the eggs (cook for 6 minutes and 30 seconds).
+Bring a pot of water to a rolling boil and add the eggs. Cook for 6 minutes and 30 seconds.
 Immedietly put the eggs in ice water to stop the cooking process.
 
-#### Step 2: Prep Sauce
-Chop all the peppers and other ingredients (exluding the cucumbers and rice) and place it in a container with the eggs.
-Let the eggs sit in the container overnight.
+#### Step 2: Prep Marinade
+Chop all the peppers and ingredients (exluding the cucumbers and rice) and place it in a container and mix well.
+Add the the eggs and let them sit overnight.
 
 #### Step 3: (Optional) Cook Rice
-Optionally pre-cook rice, or on the day of eating, cook desired quantity of rice.
+On the day of eating, cook desired quantity of rice. Optionally pre-cook rice.
 
 #### Step 4: (Optional) Add Cucumber
 On the day of eating, chop the cucumbers in a spiral.
