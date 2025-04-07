@@ -1,4 +1,4 @@
-<!--title:🍳 Zawie's Recipies-->
+<!--title:🍳 Zawie's Recipes-->
 <!--list:false-->
 
 ### Welcome!
