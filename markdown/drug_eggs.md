@@ -16,6 +16,7 @@ For the marinade:
 - 1 table spoon of Paprika (chili flakes or gochugaru could work)
 - 4 gloves of garlic (optional)
 - 2 types of peppers (habenaro, fresno, serano, any spicy peppers will do)
+- Sake (optional)
 
 ### Steps
 
@@ -25,7 +26,7 @@ Immedietly put the eggs in ice water to stop the cooking process.
 
 #### Step 2: Prep Marinade
 Chop all the peppers and ingredients (exluding the cucumbers and rice) and place it in a container and mix well.
-Add the the eggs and let them sit overnight.
+Add the the eggs and let them sit overnight. If you are feeling fancy, add a few glugs of sake to the marinade.
 
 #### Step 3: (Optional) Cook Rice
 On the day of eating, cook desired quantity of rice. Optionally pre-cook rice.
