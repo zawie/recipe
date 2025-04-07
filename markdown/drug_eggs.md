@@ -1,6 +1,7 @@
 <!--title:🪺 Drug Eggs-->
 
-An addictive dish consiting of 6 eggs (3 servings) marinated in a sweet and spicy sauce. Goes well over rice alongside a cucumber, but can also be added to a bowl of ramen.
+![](/static/drug_egg.jpg)
+An addictive dish consiting of 6 jammy eggs (3 servings) marinated in a sweet and spicy sauce. Goes well over rice alongside a cucumber, but can also be added to a bowl of ramen.
 
 ### Ingredients
 - 6 Large Eggs
