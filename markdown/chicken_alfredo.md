@@ -46,10 +46,12 @@ Add some lemon juice (half a lemon); pro tip, you can stick a fork in it and squ
 
 Viola, you have a delicious chicken alfredo pasta dish! Serve with some parsely on top for some color.
 
+### Storage Recommendation
+Cooked chicken can be stored 3-4 days in the fridge. I recommend storing 2-3 servings in the fridge and freezing the rest.
 
 ### Notes to Self
 - Need to buy a proper blender; the dingy thing I had was not strong enough.
 - Sauce was too liquidy, will try to drain the chicken after baking.
 
 ### Sources
-Inspired from from [Noel Deyzel's video](https://www.youtube.com/watch?v=RHrBR6ccdMA), but modified to bake the chicken instead of frying it. 
+Inspired from from [Noel Deyzel's video](https://www.youtube.com/watch?v=RHrBR6ccdMA), but modified to bake the chicken instead of frying it.
