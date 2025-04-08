@@ -44,6 +44,7 @@ for file in "$WORKING_DIR"/*.md; do
     --standalone \
     --template="$TEMPLATE" \
     --metadata=title:"$title" \
+    --metadata=filename:"$(basename -- $file)" \
 
   echo "Built: $output"
 done
