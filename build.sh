@@ -14,12 +14,30 @@ get_html_file_name() {
     echo "$filename.html"
 }
 
+urlencode() {
+  local input_file="$1"
+  local encoded_content=""
+
+  while IFS= read -r line || [[ -n "$line" ]]; do
+    # URL encode each line and append to the content
+    # The newline characters are encoded as %0A (URL encoded)
+    encoded_content+=$(echo -n "$line" | xxd -p -c 1000 | tr -d '\n' | sed 's/\(..\)/%\1/g')
+    # Preserve the newline by appending %0A after encoding each line
+    encoded_content+='%0A'
+  done < "$input_file"
+
+  # Return the encoded content
+  echo "$encoded_content"
+}
+
+
 set -e
 
 INPUT_DIR="markdown"
 WORKING_DIR="/tmp/working"
 OUTPUT_DIR="html"
 TEMPLATE="template.html"
+MARKDOWN_SAMPLE_CONTENT=$(urlencode template.md)
 
 mkdir -p "$WORKING_DIR"
 cp -r "$INPUT_DIR"/* "$WORKING_DIR"
@@ -45,6 +63,7 @@ for file in "$WORKING_DIR"/*.md; do
     --template="$TEMPLATE" \
     --metadata=title:"$title" \
     --metadata=filename:"$(basename -- $file)" \
+    --metadata=samplecontent:"$MARKDOWN_SAMPLE_CONTENT" \
 
   echo "Built: $output"
 done
