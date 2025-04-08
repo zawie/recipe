@@ -26,7 +26,7 @@ jobs:
           fi
 
       - name: Run build script
-        run: bash build.sh
+        run: sh build.sh
 
       - name: Add CNAME for custom domain
         run: echo "recipe.zawie.io" > ./html/CNAME
