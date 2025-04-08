@@ -9,12 +9,14 @@ A short description of the dish — what it is, how many servings it makes, what
 ---
 
 ### Ingredients
+
 - Ingredient 1
 - Ingredient 2
 - Ingredient 3
 *(Add quantities and preparation notes as needed)*
 
 #### Optional or For Sauce/Marinade (if applicable)
+
 - Ingredient A
 - Ingredient B
 
@@ -23,16 +25,20 @@ A short description of the dish — what it is, how many servings it makes, what
 ### Steps
 
 #### Step 1: [Name of Step]
+
 Describe what to do in this step. Include cooking times, temperatures, and any tips.
 
 #### Step 2: [Name of Step]
+
 Explain the next stage of preparation or cooking.
 
 #### Step 3: [Name of Step or Optional]
+
 Add more steps as needed. Optional steps can go here too.
 
 ---
 
 ### Notes & Tips
+
 - Substitutions, serving suggestions, or storage tips.
 - Anything the cook might want to tweak or keep in mind.

@@ -1,6 +1,7 @@
 <!--title:🌯 Burrito Bowl-->
 
 ### Ingredients
+
 - Rice
 - 1 pound of Ground Beef
 - 1 Can of Beans (15 oz)
