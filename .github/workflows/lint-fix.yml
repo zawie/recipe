@@ -1,0 +1,40 @@
+name: Lint and Commit Fixes
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint_and_fix:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Lint and Fix
+        run: |
+          ./lint.sh
+
+      - name: Commit and push any fixes
+        run: |
+          if ! git diff --quiet; then
+            echo "Changes detected!"
+            git config user.name "GitHub Actions"
+            git config user.email "actions@github.com"
+            git add .
+            git commit -m "🧹 Lint fixes $(git rev-parse --short HEAD)"
+            git push
+            echo "Pushed changes"
+          else
+            echo "No fixes needed"
+          fi
