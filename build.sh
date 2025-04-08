@@ -17,7 +17,7 @@ get_html_file_name() {
 set -e
 
 INPUT_DIR="markdown"
-WORKING_DIR="working"
+WORKING_DIR="/tmp/working"
 OUTPUT_DIR="html"
 TEMPLATE="template.html"
 
