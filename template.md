@@ -1,7 +1,8 @@
 <!--title:🍽️ RECIPE NAME-->
 
-<!-- You can add an image if you upload a file to /static/ and reference it as follows (Exluding the <!-- -->) -->
-<!-- ![](/static/recipe_image.jpg) -->
+<!-- Markdown syntax cheat sheet: https://www.markdownguide.org/cheat-sheet/ -->
+
+<!-- You can add an image if you upload a file to /static/ and reference it as follows: ![](/static/recipe_image.jpg) -->
 
 A short description of the dish — what it is, how many servings it makes, what it pairs well with, or anything special about it.
 
