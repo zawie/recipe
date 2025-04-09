@@ -40,4 +40,4 @@ On the day of eating, cook desired quantity of rice. Optionally pre-cook rice.
 
 On the day of eating, chop the cucumbers in a spiral.
 To do this, place the cucumber on a pair of chopsticks and chop; the chopstickers should prevent the cucumber being cut all the way through.
-Then, rotate the cucumber 180 degrees and chop at a 45 degree angle. This should lead to the cucumber being an accordio. Dip into the soy sauce and serve!
+Then, rotate the cucumber 180 degrees and chop at a 45 degree angle. This should lead to the cucumber being an accordian. Dip into the soy sauce and serve!
