@@ -25,4 +25,4 @@ Whisk all ingredients together. Dip bread in batter and fry until golden (helps 
 
 ### Sources
 
-Inspired from [](https://potatorolls.com/blog/grandmas-old-fashioned-french-toast/).
+Inspired from [Grandma’s Old-Fashioned French Toast](https://potatorolls.com/blog/grandmas-old-fashioned-french-toast/).
