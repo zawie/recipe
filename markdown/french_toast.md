@@ -19,9 +19,10 @@ Delicious easy to make homemade french toast.
 
 ### Instructions
 
-Whisk all ingredients together. Dip bread in batter and fry until golden (helps to put lid on while cooking)
+Whisk all ingredients together. Dip bread in batter and fry until golden (helps to put lid on while cooking).
+
 ---
 
 ### Sources
 
-Inspired from ![](https://potatorolls.com/blog/grandmas-old-fashioned-french-toast/).
+Inspired from [](https://potatorolls.com/blog/grandmas-old-fashioned-french-toast/).
