@@ -3,22 +3,26 @@
 ![](/static/drug_egg.jpg)
 An addictive dish consiting of 6 jammy eggs (3 servings) marinated in a sweet and spicy sauce. Goes well over rice alongside a cucumber, but can also be added to a bowl of ramen.
 
+---
+
 ### Ingredients
 
-- 6 Large Eggs
-- 3 small cucumbers (one per serving)
+- [ ] 6 Large Eggs
+- [ ] 3 small cucumbers (one per serving)
 
 For the marinade:
 
-- 3/4 cup soy sauce
-- 1/2 cup water
-- 1/4 granulated sugar
-- 1/4 cup rice vinegar
-- 1 tablespoon of rice viniger
-- 1 table spoon of Paprika (chili flakes or gochugaru could work)
-- 4 gloves of garlic (optional)
-- 2 types of peppers (habenaro, fresno, serano, any spicy peppers will do)
-- Sake (optional)
+- [ ] 3/4 cup soy sauce
+- [ ] 1/2 cup water
+- [ ] 1/4 granulated sugar
+- [ ] 1/4 cup rice vinegar
+- [ ] 1 tablespoon of rice viniger
+- [ ] 1 table spoon of Paprika (chili flakes or gochugaru could work)
+- [ ] 4 gloves of garlic (optional)
+- [ ] 2 types of peppers (habenaro, fresno, serano, any spicy peppers will do)
+- [ ] Sake (optional)
+
+---
 
 ### Steps
 

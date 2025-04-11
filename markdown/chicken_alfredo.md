@@ -4,21 +4,25 @@
 
 A creamy high-protein chicken alfredo pasta dish with a rich and home-made flavorful sauce. Perfect for a comforting meal-prepped dinner!
 
+---
+
 ### Ingredients
 
 For 6 servings:
 
-- 1kg (2.2 lbs) Chicken breast or tenders
-- 1/2 medium Onion
-- 150g Mushrooms (optional)
-- Italian seasoning
-- Minced garlic
-- Lemon juice
-- 50g Parmesan cheese
-- 300g Cottage cheese
-- 200g Greek yogurt
-- 150ml Chicken broth
-- Pasta (fettuccine recommended)
+- [ ] 1kg (2.2 lbs) Chicken breast or tenders
+- [ ] 1/2 medium Onion
+- [ ] 150g Mushrooms (optional)
+- [ ] Italian seasoning
+- [ ] Minced garlic
+- [ ] Lemon juice
+- [ ] 50g Parmesan cheese
+- [ ] 300g Cottage cheese
+- [ ] 200g Greek yogurt
+- [ ] 150ml Chicken broth
+- [ ] Pasta (fettuccine recommended)
+
+---
 
 ### Steps
 
@@ -47,14 +51,18 @@ Add some lemon juice (half a lemon); pro tip, you can stick a fork in it and squ
 
 Viola, you have a delicious chicken alfredo pasta dish! Serve with some parsely on top for some color.
 
-### Storage Recommendation
+---
 
-Cooked chicken can be stored 3-4 days in the fridge. I recommend storing 2-3 servings in the fridge and freezing the rest.
+### Notes & Tips
 
-### Notes to Self
+**Storage Recommendation**: Cooked chicken can be stored 3-4 days in the fridge. I recommend storing 2-3 servings in the fridge and freezing the rest.
+
+Notes to Self:
 
 - Need to buy a proper blender; the dingy thing I had was not strong enough.
 - Sauce was too liquidy, will try to drain the chicken after baking.
+
+---
 
 ### Sources
 

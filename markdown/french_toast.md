@@ -12,7 +12,7 @@ Delicious easy to make homemade french toast.
 - [ ] 1 teaspoon of vanilla extract
 - [ ] At least 1/2 teaspoon of cinimamon
 - [ ] A pinch of salt
-- [ ]  Maple syrup (optional)
+- [ ] Maple syrup (optional)
 - [ ] Powdered sugar (optional)
 
 ---

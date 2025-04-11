@@ -46,6 +46,8 @@ watch_and_build() {
 # Set up trap for Ctrl+C and other exits
 trap cleanup INT TERM EXIT
 
+./build.sh
+
 # Start the services
 serve_html
 watch_and_build

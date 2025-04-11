@@ -10,12 +10,12 @@ A short description of the dish — what it is, how many servings it makes, what
 
 ### Ingredients
 
-- Ingredient 1
-- Ingredient 2
-- Ingredient 3
+- [ ] Ingredient 1
+- [ ] Ingredient 2
+- [ ] Ingredient 3
 *(Add quantities and preparation notes as needed)*
 
-#### Optional or For Sauce/Marinade (if applicable)
+#### Some other section (if applicable)
 
 - Ingredient A
 - Ingredient B
