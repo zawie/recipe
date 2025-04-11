@@ -18,11 +18,13 @@ urlencode() {
     encoded_content=""
 
     while IFS= read -r line || [ -n "$line" ]; do
-        encoded_line=$(echo -n "$line" | xxd -p -c 1000 | tr -d '\n' | sed 's/\(..\)/%\1/g')
-        encoded_content=$(echo "${encoded_content}${encoded_line}%0A")
+        # Encode each byte to %XX
+        encoded_line=$(printf '%s' "$line" | od -An -tx1 | tr -s ' ' '\n' | grep -v '^$' | sed 's/^/%/' | tr -d '\n')
+        encoded_content="${encoded_content}${encoded_line}%0A"
     done < "$input_file"
 
-    echo "$encoded_content"
+    # Remove the final newline encoding if needed
+    echo "${encoded_content%\\%0A}"
 }
 
 set -e
