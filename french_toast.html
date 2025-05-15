@@ -1,13 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>🍞 French Toast</title>
-        <link
-            rel="stylesheet"
-            href="https://cdn.simplecss.org/simple.min.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.min.css">
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
         <style>
             main > section {
@@ -39,44 +36,70 @@
                 font-size: 1rem;
                 line-height: 1.5;
             }
+
+            /* Remove link decorations from the logo */
+            a.logo {
+                text-decoration: none;
+                color: inherit; /* Inherit color from parent */
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 1rem auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+              }
         </style>
     </head>
     <body>
-        <header>
+        <nav class="container-fluid">
+            <ul>
+              <li><a href="/"  class="logo"></li>zawie<strong>log</strong></a></li>
+            </ul>
+            <!-- <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul> -->
+          </nav>
+        
+          <main class="container">
             <h1>🍞 French Toast</h1>
-            <a href="/" style="text-decoration: none">See All Recipes</a>
-        </header>
-
-        <main>
-            <section><!--title:🍞 French Toast-->
-<p>Delicious easy to make homemade french toast.</p>
-<hr />
-<h3 id="ingredients">Ingredients</h3>
-<ul class="task-list">
-<li><label><input type="checkbox" />2 slices of bread</label></li>
-<li><label><input type="checkbox" />2 eggs</label></li>
-<li><label><input type="checkbox" />1/4 cup of milk</label></li>
-<li><label><input type="checkbox" />1 teaspoon of vanilla
-extract</label></li>
-<li><label><input type="checkbox" />At least 1/2 teaspoon of
-cinimamon</label></li>
-<li><label><input type="checkbox" />A pinch of salt</label></li>
-<li><label><input type="checkbox" />Maple syrup (optional)</label></li>
-<li><label><input type="checkbox" />Powdered sugar
-(optional)</label></li>
-</ul>
-<hr />
-<h3 id="instructions">Instructions</h3>
-<p>Whisk all ingredients together. Dip bread in batter and fry until
-golden (helps to put lid on while cooking).</p>
-<hr />
-<h3 id="sources">Sources</h3>
-<p>Inspired from <a
-href="https://potatorolls.com/blog/grandmas-old-fashioned-french-toast/">Grandma’s
-Old-Fashioned French Toast</a>.</p></section>
-        </main>
-
-        <footer>
+            <!--title:🍞 French Toast-->
+            <p>Delicious easy to make homemade french toast.</p>
+            <hr />
+            <h3 id="ingredients">Ingredients</h3>
+            <ul class="task-list">
+            <li><label><input type="checkbox" />2 slices of
+            bread</label></li>
+            <li><label><input type="checkbox" />2 eggs</label></li>
+            <li><label><input type="checkbox" />1/4 cup of
+            milk</label></li>
+            <li><label><input type="checkbox" />1 teaspoon of vanilla
+            extract</label></li>
+            <li><label><input type="checkbox" />At least 1/2 teaspoon of
+            cinimamon</label></li>
+            <li><label><input type="checkbox" />A pinch of
+            salt</label></li>
+            <li><label><input type="checkbox" />Maple syrup
+            (optional)</label></li>
+            <li><label><input type="checkbox" />Powdered sugar
+            (optional)</label></li>
+            </ul>
+            <hr />
+            <h3 id="instructions">Instructions</h3>
+            <p>Whisk all ingredients together. Dip bread in batter and
+            fry until golden (helps to put lid on while cooking).</p>
+            <hr />
+            <h3 id="sources">Sources</h3>
+            <p>Inspired from <a
+            href="https://potatorolls.com/blog/grandmas-old-fashioned-french-toast/">Grandma’s
+            Old-Fashioned French Toast</a>.</p>
+          </main>
+    
+          <footer class="container-fluid" style="margin-top: 3rem; padding: 1rem 0; border-top: 1px solid var(--hr-color); text-align: center;">
             <span>
                 <a href="/" style="text-decoration: none">All Recipes</a> |
                 <a
@@ -92,7 +115,6 @@ Old-Fashioned French Toast</a>.</p></section>
                     >Edit Page</a
                 >
             </span>
-            <p>&copy; 2025 Adam Zawierucha</p>
-        </footer>
+            <p>&copy; 2025 Adam Zawierucha</p>          </footer>
     </body>
 </html>

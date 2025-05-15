@@ -1,13 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>🪺 Drug Eggs</title>
-        <link
-            rel="stylesheet"
-            href="https://cdn.simplecss.org/simple.min.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.min.css">
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
         <style>
             main > section {
@@ -39,68 +36,100 @@
                 font-size: 1rem;
                 line-height: 1.5;
             }
+
+            /* Remove link decorations from the logo */
+            a.logo {
+                text-decoration: none;
+                color: inherit; /* Inherit color from parent */
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 1rem auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+              }
         </style>
     </head>
     <body>
-        <header>
+        <nav class="container-fluid">
+            <ul>
+              <li><a href="/"  class="logo"></li>zawie<strong>log</strong></a></li>
+            </ul>
+            <!-- <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul> -->
+          </nav>
+        
+          <main class="container">
             <h1>🪺 Drug Eggs</h1>
-            <a href="/" style="text-decoration: none">See All Recipes</a>
-        </header>
-
-        <main>
-            <section><!--title:🪺 Drug Eggs-->
-<p><img src="/static/drug_egg.jpg" /> An addictive dish consiting of 6
-jammy eggs (3 servings) marinated in a sweet and spicy sauce. Goes well
-over rice alongside a cucumber, but can also be added to a bowl of
-ramen.</p>
-<hr />
-<h3 id="ingredients">Ingredients</h3>
-<ul class="task-list">
-<li><label><input type="checkbox" />6 Large Eggs</label></li>
-<li><label><input type="checkbox" />3 small cucumbers (one per
-serving)</label></li>
-</ul>
-<p>For the marinade:</p>
-<ul class="task-list">
-<li><label><input type="checkbox" />3/4 cup soy sauce</label></li>
-<li><label><input type="checkbox" />1/2 cup water</label></li>
-<li><label><input type="checkbox" />1/4 granulated sugar</label></li>
-<li><label><input type="checkbox" />1/4 cup rice vinegar</label></li>
-<li><label><input type="checkbox" />1 tablespoon of rice
-viniger</label></li>
-<li><label><input type="checkbox" />1 table spoon of Paprika (chili
-flakes or gochugaru could work)</label></li>
-<li><label><input type="checkbox" />4 gloves of garlic
-(optional)</label></li>
-<li><label><input type="checkbox" />2 types of peppers (habenaro,
-fresno, serano, any spicy peppers will do)</label></li>
-<li><label><input type="checkbox" />Sake (optional)</label></li>
-</ul>
-<hr />
-<h3 id="steps">Steps</h3>
-<h4 id="step-1-soft-boil">Step 1: Soft Boil</h4>
-<p>Bring a pot of water to a rolling boil and add the eggs. Cook for 6
-minutes and 30 seconds. Immedietly put the eggs in ice water to stop the
-cooking process.</p>
-<h4 id="step-2-prep-marinade">Step 2: Prep Marinade</h4>
-<p>Chop all the peppers and ingredients (exluding the cucumbers and
-rice) and place it in a container and mix well. Add the the eggs and let
-them sit overnight. If you are feeling fancy, add a few glugs of sake to
-the marinade.</p>
-<h4 id="step-3-optional-cook-rice">Step 3: (Optional) Cook Rice</h4>
-<p>On the day of eating, cook desired quantity of rice. Optionally
-pre-cook rice.</p>
-<h4 id="step-4-optional-add-cucumber">Step 4: (Optional) Add
-Cucumber</h4>
-<p>On the day of eating, chop the cucumbers in a spiral. To do this,
-place the cucumber on a pair of chopsticks and chop; the chopstickers
-should prevent the cucumber being cut all the way through. Then, rotate
-the cucumber 180 degrees and chop at a 45 degree angle. This should lead
-to the cucumber being an accordian. Dip into the soy sauce and
-serve!</p></section>
-        </main>
-
-        <footer>
+            <!--title:🪺 Drug Eggs-->
+            <p><img src="/static/drug_egg.jpg" /> An addictive dish
+            consiting of 6 jammy eggs (3 servings) marinated in a sweet
+            and spicy sauce. Goes well over rice alongside a cucumber,
+            but can also be added to a bowl of ramen.</p>
+            <hr />
+            <h3 id="ingredients">Ingredients</h3>
+            <ul class="task-list">
+            <li><label><input type="checkbox" />6 Large
+            Eggs</label></li>
+            <li><label><input type="checkbox" />3 small cucumbers (one
+            per serving)</label></li>
+            </ul>
+            <p>For the marinade:</p>
+            <ul class="task-list">
+            <li><label><input type="checkbox" />3/4 cup soy
+            sauce</label></li>
+            <li><label><input type="checkbox" />1/2 cup
+            water</label></li>
+            <li><label><input type="checkbox" />1/4 granulated
+            sugar</label></li>
+            <li><label><input type="checkbox" />1/4 cup rice
+            vinegar</label></li>
+            <li><label><input type="checkbox" />1 tablespoon of rice
+            viniger</label></li>
+            <li><label><input type="checkbox" />1 table spoon of Paprika
+            (chili flakes or gochugaru could work)</label></li>
+            <li><label><input type="checkbox" />4 gloves of garlic
+            (optional)</label></li>
+            <li><label><input type="checkbox" />2 types of peppers
+            (habenaro, fresno, serano, any spicy peppers will
+            do)</label></li>
+            <li><label><input type="checkbox" />Sake
+            (optional)</label></li>
+            </ul>
+            <hr />
+            <h3 id="steps">Steps</h3>
+            <h4 id="step-1-soft-boil">Step 1: Soft Boil</h4>
+            <p>Bring a pot of water to a rolling boil and add the eggs.
+            Cook for 6 minutes and 30 seconds. Immedietly put the eggs
+            in ice water to stop the cooking process.</p>
+            <h4 id="step-2-prep-marinade">Step 2: Prep Marinade</h4>
+            <p>Chop all the peppers and ingredients (exluding the
+            cucumbers and rice) and place it in a container and mix
+            well. Add the the eggs and let them sit overnight. If you
+            are feeling fancy, add a few glugs of sake to the
+            marinade.</p>
+            <h4 id="step-3-optional-cook-rice">Step 3: (Optional) Cook
+            Rice</h4>
+            <p>On the day of eating, cook desired quantity of rice.
+            Optionally pre-cook rice.</p>
+            <h4 id="step-4-optional-add-cucumber">Step 4: (Optional) Add
+            Cucumber</h4>
+            <p>On the day of eating, chop the cucumbers in a spiral. To
+            do this, place the cucumber on a pair of chopsticks and
+            chop; the chopstickers should prevent the cucumber being cut
+            all the way through. Then, rotate the cucumber 180 degrees
+            and chop at a 45 degree angle. This should lead to the
+            cucumber being an accordian. Dip into the soy sauce and
+            serve!</p>
+          </main>
+    
+          <footer class="container-fluid" style="margin-top: 3rem; padding: 1rem 0; border-top: 1px solid var(--hr-color); text-align: center;">
             <span>
                 <a href="/" style="text-decoration: none">All Recipes</a> |
                 <a
@@ -116,7 +145,6 @@ serve!</p></section>
                     >Edit Page</a
                 >
             </span>
-            <p>&copy; 2025 Adam Zawierucha</p>
-        </footer>
+            <p>&copy; 2025 Adam Zawierucha</p>          </footer>
     </body>
 </html>

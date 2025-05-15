@@ -1,13 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>🐓 Chicken Alfredo</title>
-        <link
-            rel="stylesheet"
-            href="https://cdn.simplecss.org/simple.min.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.min.css">
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
         <style>
             main > section {
@@ -39,95 +36,128 @@
                 font-size: 1rem;
                 line-height: 1.5;
             }
+
+            /* Remove link decorations from the logo */
+            a.logo {
+                text-decoration: none;
+                color: inherit; /* Inherit color from parent */
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 1rem auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+              }
         </style>
     </head>
     <body>
-        <header>
+        <nav class="container-fluid">
+            <ul>
+              <li><a href="/"  class="logo"></li>zawie<strong>log</strong></a></li>
+            </ul>
+            <!-- <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul> -->
+          </nav>
+        
+          <main class="container">
             <h1>🐓 Chicken Alfredo</h1>
-            <a href="/" style="text-decoration: none">See All Recipes</a>
-        </header>
-
-        <main>
-            <section><!--title:🐓 Chicken Alfredo-->
-<p><img src="static/chicken_alfredo_done_1.jpg" /></p>
-<p>A creamy high-protein chicken alfredo pasta dish with a rich and
-home-made flavorful sauce. Perfect for a comforting meal-prepped
-dinner!</p>
-<hr />
-<h3 id="ingredients">Ingredients</h3>
-<p>For 6 servings:</p>
-<ul class="task-list">
-<li><label><input type="checkbox" />1kg (2.2 lbs) Chicken breast or
-tenders</label></li>
-<li><label><input type="checkbox" />1/2 medium Onion</label></li>
-<li><label><input type="checkbox" />150g Mushrooms
-(optional)</label></li>
-<li><label><input type="checkbox" />Italian seasoning</label></li>
-<li><label><input type="checkbox" />Minced garlic</label></li>
-<li><label><input type="checkbox" />Lemon juice</label></li>
-<li><label><input type="checkbox" />50g Parmesan cheese</label></li>
-<li><label><input type="checkbox" />300g Cottage cheese</label></li>
-<li><label><input type="checkbox" />200g Greek yogurt</label></li>
-<li><label><input type="checkbox" />150ml Chicken broth</label></li>
-<li><label><input type="checkbox" />Pasta (fettuccine
-recommended)</label></li>
-</ul>
-<hr />
-<h3 id="steps">Steps</h3>
-<h4 id="preparation">Preparation</h4>
-<ul>
-<li><em>Meat</em>: Chop the chicken into 1/2 to 1 inch pieces. Season
-with salt, pepper, garlic powder, a teaspon of minced garlic, and
-Italian seasoning. Add some lemon juice (half a lemon); pro tip, you can
-stick a fork in it and squeeze to get more out. Add some butter if
-desired.</li>
-<li><em>Vegetables</em>: Dice a whole onion and 150g+ of Mushroom (the
-more the merrier).</li>
-<li><em>Sauce</em>: Blend/mix 200g Greek yogurt, 300g Cottage cheese,
-and at least 50g Parmesan cheese</li>
-</ul>
-<p><img src="static/chicken_alfredo_chicken_prep.jpg" /></p>
-<h4 id="cooking">Cooking</h4>
-<pre><code>⚠️ Do NOT let the sauce simmer</code></pre>
-<ul>
-<li>Cook the pasta according to the package instructions. Drain and set
-aside.</li>
-<li>Bake the chicken in the oven for 20 minutes at 420℉. Occasionally
-open and mix chicken to ensure evenly cooked. (Chose to bake chicken
-since it’s less scary and my stovetop is not that big…)</li>
-<li>Cook vegetables on low heat on pan in the meantime with some
-oil.</li>
-<li>Once the Chicken is baked, add it with the vegetables (Note to self,
-probably drain water after baking otherwise its too liquidy)</li>
-<li>Add 150ml of Chicken broth (0.6 cups)</li>
-<li>Add the sauce; do not let it simmer. It will curdle and ruin the
-sauce. Just mix it in and let it warm up a bit.</li>
-<li>Add the pasta and mix well. Optionally add some more cheese on
-top.</li>
-</ul>
-<p>Viola, you have a delicious chicken alfredo pasta dish! Serve with
-some parsely on top for some color.</p>
-<hr />
-<h3 id="notes-tips">Notes &amp; Tips</h3>
-<p><strong>Storage Recommendation</strong>: Cooked chicken can be stored
-3-4 days in the fridge. I recommend storing 2-3 servings in the fridge
-and freezing the rest.</p>
-<p>Notes to Self:</p>
-<ul>
-<li>Need to buy a proper blender; the dingy thing I had was not strong
-enough.</li>
-<li>Sauce was too liquidy, will try to drain the chicken after
-baking.</li>
-</ul>
-<hr />
-<h3 id="sources">Sources</h3>
-<p>Inspired from from <a
-href="https://www.youtube.com/watch?v=RHrBR6ccdMA">Noel Deyzel’s
-video</a>, but modified to bake the chicken instead of frying
-it.</p></section>
-        </main>
-
-        <footer>
+            <!--title:🐓 Chicken Alfredo-->
+            <p><img src="static/chicken_alfredo_done_1.jpg" /></p>
+            <p>A creamy high-protein chicken alfredo pasta dish with a
+            rich and home-made flavorful sauce. Perfect for a comforting
+            meal-prepped dinner!</p>
+            <hr />
+            <h3 id="ingredients">Ingredients</h3>
+            <p>For 6 servings:</p>
+            <ul class="task-list">
+            <li><label><input type="checkbox" />1kg (2.2 lbs) Chicken
+            breast or tenders</label></li>
+            <li><label><input type="checkbox" />1/2 medium
+            Onion</label></li>
+            <li><label><input type="checkbox" />150g Mushrooms
+            (optional)</label></li>
+            <li><label><input type="checkbox" />Italian
+            seasoning</label></li>
+            <li><label><input type="checkbox" />Minced
+            garlic</label></li>
+            <li><label><input type="checkbox" />Lemon juice</label></li>
+            <li><label><input type="checkbox" />50g Parmesan
+            cheese</label></li>
+            <li><label><input type="checkbox" />300g Cottage
+            cheese</label></li>
+            <li><label><input type="checkbox" />200g Greek
+            yogurt</label></li>
+            <li><label><input type="checkbox" />150ml Chicken
+            broth</label></li>
+            <li><label><input type="checkbox" />Pasta (fettuccine
+            recommended)</label></li>
+            </ul>
+            <hr />
+            <h3 id="steps">Steps</h3>
+            <h4 id="preparation">Preparation</h4>
+            <ul>
+            <li><em>Meat</em>: Chop the chicken into 1/2 to 1 inch
+            pieces. Season with salt, pepper, garlic powder, a teaspon
+            of minced garlic, and Italian seasoning. Add some lemon
+            juice (half a lemon); pro tip, you can stick a fork in it
+            and squeeze to get more out. Add some butter if
+            desired.</li>
+            <li><em>Vegetables</em>: Dice a whole onion and 150g+ of
+            Mushroom (the more the merrier).</li>
+            <li><em>Sauce</em>: Blend/mix 200g Greek yogurt, 300g
+            Cottage cheese, and at least 50g Parmesan cheese</li>
+            </ul>
+            <p><img src="static/chicken_alfredo_chicken_prep.jpg" /></p>
+            <h4 id="cooking">Cooking</h4>
+            <pre><code>⚠️ Do NOT let the sauce simmer</code></pre>
+            <ul>
+            <li>Cook the pasta according to the package instructions.
+            Drain and set aside.</li>
+            <li>Bake the chicken in the oven for 20 minutes at 420℉.
+            Occasionally open and mix chicken to ensure evenly cooked.
+            (Chose to bake chicken since it’s less scary and my stovetop
+            is not that big…)</li>
+            <li>Cook vegetables on low heat on pan in the meantime with
+            some oil.</li>
+            <li>Once the Chicken is baked, add it with the vegetables
+            (Note to self, probably drain water after baking otherwise
+            its too liquidy)</li>
+            <li>Add 150ml of Chicken broth (0.6 cups)</li>
+            <li>Add the sauce; do not let it simmer. It will curdle and
+            ruin the sauce. Just mix it in and let it warm up a
+            bit.</li>
+            <li>Add the pasta and mix well. Optionally add some more
+            cheese on top.</li>
+            </ul>
+            <p>Viola, you have a delicious chicken alfredo pasta dish!
+            Serve with some parsely on top for some color.</p>
+            <hr />
+            <h3 id="notes-tips">Notes &amp; Tips</h3>
+            <p><strong>Storage Recommendation</strong>: Cooked chicken
+            can be stored 3-4 days in the fridge. I recommend storing
+            2-3 servings in the fridge and freezing the rest.</p>
+            <p>Notes to Self:</p>
+            <ul>
+            <li>Need to buy a proper blender; the dingy thing I had was
+            not strong enough.</li>
+            <li>Sauce was too liquidy, will try to drain the chicken
+            after baking.</li>
+            </ul>
+            <hr />
+            <h3 id="sources">Sources</h3>
+            <p>Inspired from from <a
+            href="https://www.youtube.com/watch?v=RHrBR6ccdMA">Noel
+            Deyzel’s video</a>, but modified to bake the chicken instead
+            of frying it.</p>
+          </main>
+    
+          <footer class="container-fluid" style="margin-top: 3rem; padding: 1rem 0; border-top: 1px solid var(--hr-color); text-align: center;">
             <span>
                 <a href="/" style="text-decoration: none">All Recipes</a> |
                 <a
@@ -143,7 +173,6 @@ it.</p></section>
                     >Edit Page</a
                 >
             </span>
-            <p>&copy; 2025 Adam Zawierucha</p>
-        </footer>
+            <p>&copy; 2025 Adam Zawierucha</p>          </footer>
     </body>
 </html>

@@ -1,13 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>🇰🇷 Japchae </title>
-        <link
-            rel="stylesheet"
-            href="https://cdn.simplecss.org/simple.min.css"
-        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@latest/css/pico.min.css">
         <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
         <style>
             main > section {
@@ -39,83 +36,118 @@
                 font-size: 1rem;
                 line-height: 1.5;
             }
+
+            /* Remove link decorations from the logo */
+            a.logo {
+                text-decoration: none;
+                color: inherit; /* Inherit color from parent */
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 1rem auto;
+                border-radius: 0.5rem;
+                box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+              }
         </style>
     </head>
     <body>
-        <header>
+        <nav class="container-fluid">
+            <ul>
+              <li><a href="/"  class="logo"></li>zawie<strong>log</strong></a></li>
+            </ul>
+            <!-- <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul> -->
+          </nav>
+        
+          <main class="container">
             <h1>🇰🇷 Japchae </h1>
-            <a href="/" style="text-decoration: none">See All Recipes</a>
-        </header>
+            <!--title:🇰🇷 Japchae -->
+            <p>A delicious Korean dish made with glass noodles,
+            vegetables, and meat.</p>
+            <hr />
+            <h3 id="ingredients">Ingredients</h3>
+            <h4 id="stir-fry">Stir fry</h4>
+            <ul class="task-list">
+            <li><label><input type="checkbox" />8.8 oz (250g) pork loin
+            (or beef, chicken) (Use lean parts)</label></li>
+            <li><label><input type="checkbox" />1/2 Yellow
+            Onion</label></li>
+            <li><label><input type="checkbox" />1.8oz/ (50g)
+            carrot</label></li>
+            <li><label><input type="checkbox" />1.8oz/ (50g)
+            green/red/yellow bell peppers</label></li>
+            <li><label><input type="checkbox" />1.8oz/ (50g) shiitak
+            mushrooms</label></li>
+            <li><label><input type="checkbox" />1.8oz/ (50g) garlic
+            chives</label></li>
+            <li><label><input type="checkbox" />4.2 oz (120g) Dangmyeon
+            noodles (Korean sweet potato starch noodles,
+            당면)</label></li>
+            <li><label><input type="checkbox" />1/2 tbsp dark soy
+            sauce</label></li>
+            <li><label><input type="checkbox" />1.5 tbsp toasted sesame
+            oil</label></li>
+            <li><label><input type="checkbox" />2 tbsp neurral
+            tasting-oil</label></li>
+            <li><label><input type="checkbox" />Salt and pepper, to
+            taste</label></li>
+            <li><label><input type="checkbox" />1 tbsp minced
+            garlic</label></li>
+            <li><label><input type="checkbox" />Generous pinch of
+            toasted sesame seeds</label></li>
+            </ul>
+            <h4 id="sauce">Sauce</h4>
+            <p>Sauce:</p>
+            <ul class="task-list">
+            <li><label><input type="checkbox" />1.5 tbsp
+            sugar</label></li>
+            <li><label><input type="checkbox" />1.5 tbsp soy
+            sauce</label></li>
+            <li><label><input type="checkbox" />1 tbsp oyster
+            sauce</label></li>
+            <li><label><input type="checkbox" />1/2 tsp MSG
+            (optional)</label></li>
+            </ul>
+            <p><em>(Add quantities and preparation notes as
+            needed)</em></p>
+            <!-- ---
 
-        <main>
-            <section><!--title:🇰🇷 Japchae -->
-<p>A delicious Korean dish made with glass noodles, vegetables, and
-meat.</p>
-<hr />
-<h3 id="ingredients">Ingredients</h3>
-<h4 id="stir-fry">Stir fry</h4>
-<ul class="task-list">
-<li><label><input type="checkbox" />8.8 oz (250g) pork loin (or beef,
-chicken) (Use lean parts)</label></li>
-<li><label><input type="checkbox" />1/2 Yellow Onion</label></li>
-<li><label><input type="checkbox" />1.8oz/ (50g) carrot</label></li>
-<li><label><input type="checkbox" />1.8oz/ (50g) green/red/yellow bell
-peppers</label></li>
-<li><label><input type="checkbox" />1.8oz/ (50g) shiitak
-mushrooms</label></li>
-<li><label><input type="checkbox" />1.8oz/ (50g) garlic
-chives</label></li>
-<li><label><input type="checkbox" />4.2 oz (120g) Dangmyeon noodles
-(Korean sweet potato starch noodles, 당면)</label></li>
-<li><label><input type="checkbox" />1/2 tbsp dark soy sauce</label></li>
-<li><label><input type="checkbox" />1.5 tbsp toasted sesame
-oil</label></li>
-<li><label><input type="checkbox" />2 tbsp neurral
-tasting-oil</label></li>
-<li><label><input type="checkbox" />Salt and pepper, to
-taste</label></li>
-<li><label><input type="checkbox" />1 tbsp minced garlic</label></li>
-<li><label><input type="checkbox" />Generous pinch of toasted sesame
-seeds</label></li>
-</ul>
-<h4 id="sauce">Sauce</h4>
-<p>Sauce:</p>
-<ul class="task-list">
-<li><label><input type="checkbox" />1.5 tbsp sugar</label></li>
-<li><label><input type="checkbox" />1.5 tbsp soy sauce</label></li>
-<li><label><input type="checkbox" />1 tbsp oyster sauce</label></li>
-<li><label><input type="checkbox" />1/2 tsp MSG (optional)</label></li>
-</ul>
-<p><em>(Add quantities and preparation notes as needed)</em></p>
-<!-- ---
+            ### Steps
 
-### Steps
+            #### Step 1: [Name of Step]
 
-#### Step 1: [Name of Step]
+            Describe what to do in this step. Include cooking times, temperatures, and any tips.
 
-Describe what to do in this step. Include cooking times, temperatures, and any tips.
+            #### Step 2: [Name of Step]
 
-#### Step 2: [Name of Step]
+            Explain the next stage of preparation or cooking.
 
-Explain the next stage of preparation or cooking.
+            #### Step 3: [Name of Step or Optional]
 
-#### Step 3: [Name of Step or Optional]
+            Add more steps as needed. Optional steps can go here too.
 
-Add more steps as needed. Optional steps can go here too.
-
---- -->
-<h3 id="notes-tips">Notes &amp; Tips</h3>
-<ul>
-<li>Substitutions, serving suggestions, or storage tips.</li>
-<li>Anything the cook might want to tweak or keep in mind.</li>
-</ul>
-<h3 id="references">References</h3>
-<p>Mostly taken from this <a
-href="https://www.youtube.com/watch?v=JTn1Dd2nkx8">video</a> and this <a
-href="https://aaronandclaire.com/15-minute-easy-japchae-recipe-korean-glass-noodles/">recipe</a></p></section>
-        </main>
-
-        <footer>
+            --- -->
+            <h3 id="notes-tips">Notes &amp; Tips</h3>
+            <ul>
+            <li>Substitutions, serving suggestions, or storage
+            tips.</li>
+            <li>Anything the cook might want to tweak or keep in
+            mind.</li>
+            </ul>
+            <h3 id="references">References</h3>
+            <p>Mostly taken from this <a
+            href="https://www.youtube.com/watch?v=JTn1Dd2nkx8">video</a>
+            and this <a
+            href="https://aaronandclaire.com/15-minute-easy-japchae-recipe-korean-glass-noodles/">recipe</a></p>
+          </main>
+    
+          <footer class="container-fluid" style="margin-top: 3rem; padding: 1rem 0; border-top: 1px solid var(--hr-color); text-align: center;">
             <span>
                 <a href="/" style="text-decoration: none">All Recipes</a> |
                 <a
@@ -131,7 +163,6 @@ href="https://aaronandclaire.com/15-minute-easy-japchae-recipe-korean-glass-nood
                     >Edit Page</a
                 >
             </span>
-            <p>&copy; 2025 Adam Zawierucha</p>
-        </footer>
+            <p>&copy; 2025 Adam Zawierucha</p>          </footer>
     </body>
 </html>
